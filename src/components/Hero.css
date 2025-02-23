@@ -1,0 +1,26 @@
+.herocss{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-image {
+  position: relative;
+  width: 65%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.hero-image:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 123, 255, 0.5);
+}
+.heroalign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 12px;
+}

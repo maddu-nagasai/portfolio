@@ -52,7 +52,7 @@ const Navigation = ({ darkMode, toggleDarkMode }: NavigationProps) => {
               )}
             </button>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/maddu-nagasai"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors hover:scale-110 transform"
@@ -60,7 +60,7 @@ const Navigation = ({ darkMode, toggleDarkMode }: NavigationProps) => {
               <Github className="w-5 h-5 text-gray-600 dark:text-gray-300" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/maddu-nagasai"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors hover:scale-110 transform"

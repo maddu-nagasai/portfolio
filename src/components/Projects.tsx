@@ -11,13 +11,13 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Food E-Commerce Platform',
+      title: '𝝥 Food-Hub Platform',
       description: 'Food delivery platform with secure payments, real-time order tracking, and restaurant management.',
       image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80',
-      tech: ['React', 'Node.js', 'MongoDB', 'Stripe API'],
+      tech: ['React', 'Node.js', 'Vite-React', 'Github', 'Netlify'],
       links: {
-        github: '#',
-        live: '#',
+        github: 'https://github.com/maddu-nagasai/Food-Hub',
+        live: 'https://piefoodhub.netlify.app/',
       },
     },
     {

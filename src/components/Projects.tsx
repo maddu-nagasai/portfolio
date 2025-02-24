@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ExternalLink, Github } from 'lucide-react';
@@ -64,14 +64,14 @@ const Projects = () => {
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 className="group relative bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
               >
-                <div className="relative h-48 overflow-hidden">
+                <a href={project.links.live} target="_blank" rel="noopener noreferrer" className="relative h-48 overflow-hidden block">
                   <img
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition-opacity" />
-                </div>
+                </a>
                 
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">

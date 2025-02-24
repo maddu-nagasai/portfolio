@@ -11,7 +11,7 @@ const Projects = () => {
 
   const projects = [
     {
-      title: '𝝥 Food-Hub Platform',
+      title: '𝝥  Food-Hub Platform',
       description: 'Food delivery platform with secure payments, real-time order tracking, and restaurant management.',
       image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80',
       tech: ['React', 'Node.js', 'Vite-React', 'Github', 'Netlify'],

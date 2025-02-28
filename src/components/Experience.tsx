@@ -16,10 +16,13 @@ const Experience = () => {
       period: 'Oct 2024 – Dec 2024',
       location: 'India',
       description: [
-        'Developed and maintained responsive web applications using MERN stack',
-        'Integrated authentication & authorization using JWT and OAuth',
-        'Collaborated with team using Git and Agile methodologies',
+        'Developed and maintained responsive web applications using MERN stack (MongoDB, Express.js, React.js, Node.js)',
+        'Implemented secure authentication & authorization systems using JWT and OAuth',
+        'Optimized database queries and API endpoints for improved performance',
+        'Collaborated with cross-functional teams using Git and Agile methodologies',
+        'Participated in code reviews and implemented feedback to improve code quality'
       ],
+      color: 'blue'
     },
     {
       title: 'Summer Intern',
@@ -27,10 +30,13 @@ const Experience = () => {
       period: 'Apr 2023 – Jun 2023',
       location: 'Hyderabad, India',
       description: [
-        'Developed a Flight Booking Platform using Flask',
-        'Implemented user authentication and flight search functionality',
-        'Integrated payment systems and real-time booking management',
+        'Designed and developed a Flight Booking Platform using Flask and PostgreSQL',
+        'Implemented user authentication, flight search, and booking management features',
+        'Integrated payment gateway systems for secure transaction processing',
+        'Created responsive UI/UX design using modern CSS frameworks',
+        'Deployed and maintained the application on cloud infrastructure'
       ],
+      color: 'purple'
     },
   ];
 
@@ -65,7 +71,7 @@ const Experience = () => {
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                     {exp.title}
                   </h3>
-                  <p className="text-blue-600 dark:text-blue-400 font-medium mt-1">
+                  <p className={`text-${exp.color}-600 dark:text-${exp.color}-400 font-medium mt-1`}>
                     {exp.company}
                   </p>
                   <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">
